@@ -5,3 +5,5 @@ CLAUDE.md
 11785-F26-HW1P2/
 submission.md
 wandb/
+*.pth
+lectures/
