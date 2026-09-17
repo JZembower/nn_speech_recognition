@@ -7,3 +7,4 @@ submission.md
 wandb/
 *.pth
 lectures/
+checkpoints/
