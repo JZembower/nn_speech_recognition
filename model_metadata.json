@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "model": {
+    "class_name": "Network",
+    "module": "__main__",
+    "repr": "Network(\n  (model): Sequential(\n    (0): Linear(in_features=2592, out_features=1536, bias=False)\n    (1): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (2): GELU(approximate='none')\n    (3): Dropout(p=0.1, inplace=False)\n    (4): Linear(in_features=1536, out_features=1536, bias=False)\n    (5): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (6): GELU(approximate='none')\n    (7): Dropout(p=0.1, inplace=False)\n    (8): Linear(in_features=1536, out_features=1536, bias=False)\n    (9): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (10): GELU(approximate='none')\n    (11): Dropout(p=0.1, inplace=False)\n    (12): Linear(in_features=1536, out_features=1536, bias=False)\n    (13): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (14): GELU(approximate='none')\n    (15): Dropout(p=0.1, inplace=False)\n    (16): Linear(in_features=1536, out_features=1536, bias=False)\n    (17): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (18): GELU(approximate='none')\n    (19): Dropout(p=0.1, inplace=False)\n    (20): Linear(in_features=1536, out_features=1536, bias=False)\n    (21): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (22): GELU(approximate='none')\n    (23): Dropout(p=0.1, inplace=False)\n    (24): Linear(in_features=1536, out_features=1536, bias=False)\n    (25): BatchNorm1d(1536, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (26): GELU(approximate='none')\n    (27): Dropout(p=0.1, inplace=False)\n    (28): Linear(in_features=1536, out_features=1024, bias=False)\n    (29): BatchNorm1d(1024, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)\n    (30): GELU(approximate='none')\n    (31): Dropout(p=0.1, inplace=False)\n    (32): Linear(in_features=1024, out_features=40, bias=True)\n  )\n)",
+    "trainable_parameters": 19774504,
+    "total_parameters": 19774504
+  },
+  "framework": {
+    "backend_name": "torch",
+    "torch_version": "2.14.0+cu130",
+    "cuda_available": true,
+    "cuda_version": "13.0"
+  }
+}

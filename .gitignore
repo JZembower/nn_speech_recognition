@@ -8,3 +8,8 @@ wandb/
 *.pth
 lectures/
 checkpoints/
+*__pycache__/
+HW1P2_final_submission.zip
+hw2p2.json
+hw3p2.json
+hw4p2.json
